@@ -1,19 +1,12 @@
-// let message;
-// function logItems(array) {
-//   for (const fruit of array) {
-//     let fruitNumber = array.indexOf(fruit) + 1;
-//     message = `${fruitNumber} - ${fruit}`;
-//   }
-// }
+function logItems() {
+  let message;
+  const argumentNumber = argument.indexOf(prompt("enter fruit")) + 1;
 
-// logItems([Apple, Mango, Plum, Cherry, Strawberry]);
-
-function logItems(array) {
-  for (const fruit of logItems) {
-    let fruitNumber = array.indexOf(fruit) + 1;
-    message = `${fruitNumber} - ${fruit}`;
+  for (const argument of arguments) {
+    message = `${argumentNumber} - ${argument}`;
   }
+
   return message;
 }
 
-console.log(logItems(1700, 2000, 1675, 2300));
+console.log(logItems("Mango", "Apple", "Banana")); //  6
