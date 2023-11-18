@@ -1,8 +1,8 @@
 const checkForSpam = function (message) {
-  if (message.indexof("spam") || message.indexof("sale")) {
-    true;
+  if (message.indexOf("spam") || message.indexOf("sale")) {
+    return true;
   } else {
-    false;
+    return false;
   }
 };
 
